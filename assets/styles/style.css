@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: black;
+	color: lightgreen;
+
+	font-family: "Trebuchet MS";
+
+	min-height: 100vh;
+}
+
+body.-visible {
+	background-image: url('../img/STALKER.jpg'); 
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 55px;
+	font-weight: 900;
+}
+
+.container{
+	margin:  0 auto;
+	width: 1024px;
+}
+
+
+.card {
+	padding: 15px;
+	border:2px solid white;
+	border-radius: 3px;
+
+}
+
+.auth-panel {
+	max-width: 550px;
+	margin: 0 auto;
+}
